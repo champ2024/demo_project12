@@ -20,4 +20,3 @@
         src: "/var/lib/jenkins/workspace/ansible/index.html"
         dest: "/var/www/html/index.html"
         remote_src: yes
-
