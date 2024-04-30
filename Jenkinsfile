@@ -10,7 +10,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 ansiblePlaybook(
-                    credentialsId: '630ccfbe-62d7-4afe-9dae-a439f8112d6b',
+                    credentialsId: '5b92bfea-ee25-489e-9470-549ced627ffd',
                     disableHostKeyChecking: true,
                     installation: 'ansible',
                     inventory: 'dev.inv',
